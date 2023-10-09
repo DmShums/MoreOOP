@@ -1,7 +1,3 @@
-package lotr;
-
-import kick.CryKick;
-
 public class Elf extends Character{
     public Elf()
     {

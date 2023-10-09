@@ -1,8 +1,5 @@
-package lotr;
-
 import lombok.Getter;
 import lombok.AllArgsConstructor;
-import kick.KickStrategy;
 import lombok.Setter;
 //import lombok.ToString;
 

@@ -1,12 +1,10 @@
-package lotr;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class KnightTest {
-    private Character character;
+    private java.lang.Character character;
 
     @BeforeEach
     public void init() {
@@ -15,7 +13,7 @@ public class KnightTest {
 
     @Test
     public void testIsClass() {
-        assertTrue(character instanceof Character);
+        assertTrue(character instanceof java.lang.Character);
     }
 
     @Test

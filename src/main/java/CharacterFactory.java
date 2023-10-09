@@ -1,5 +1,3 @@
-package lotr;
-
 import lombok.SneakyThrows;
 
 import java.util.Arrays;

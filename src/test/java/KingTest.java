@@ -1,19 +1,17 @@
-package lotr;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class KingTest {
-    private Character character;
+    private java.lang.Character character;
 
     @BeforeEach
     public void init() { character = new King(); }
 
     @Test
     public void testIsClass() {
-        assertTrue(character instanceof Character);
+        assertTrue(character instanceof java.lang.Character);
     }
 
     @Test

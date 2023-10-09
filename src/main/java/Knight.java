@@ -1,8 +1,4 @@
-package lotr;
-
 import java.util.Random;
-
-import kick.NobleKick;
 
 public class Knight extends Character{
     private static Random randomGenerator = new Random();
