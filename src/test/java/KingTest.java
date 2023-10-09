@@ -4,14 +4,14 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class KingTest {
-    private java.lang.Character character;
+    private Character character;
 
     @BeforeEach
     public void init() { character = new King(); }
 
     @Test
     public void testIsClass() {
-        assertTrue(character instanceof java.lang.Character);
+        assertTrue(character instanceof Character);
     }
 
     @Test
